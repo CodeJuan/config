@@ -1,0 +1,10 @@
+
+[alias]
+     br = branch
+     co = checkout
+     df = difftool
+     mg = merge
+     st = status
+     last = log --pretty=oneline -1 HEAD
+     glog = log --graph --date=short --pretty=tformat:'%ad %h %s'
+     la = log --color --oneline --decorate --graph --all
